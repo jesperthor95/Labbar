@@ -1,0 +1,22 @@
+﻿<Window x:Class="Uppgift11.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift11"
+        mc:Ignorable="d"
+        Title="Smörgåsen" Height="450" Width="800">
+    <Grid>
+        <ProgressBar x:Name="progressBar" Maximum="100" Minimum="0" Value="50" HorizontalAlignment="Center" Height="29" Margin="0,78,0,0" VerticalAlignment="Top" Width="245"/>
+        <Button x:Name="btnLessOtur" Content="Mindre otur" HorizontalAlignment="Left" Margin="119,64,0,0" VerticalAlignment="Top" Height="56" Width="124" FontSize="20" Click="btnLessOtur_Click"/>
+        <Button x:Name="btnMoreOtur" Content="Mer otur" HorizontalAlignment="Left" Margin="554,64,0,0" VerticalAlignment="Top" Height="56" Width="124" FontSize="20" Click="btnMoreOtur_Click"/>
+        <Button x:Name="btnStart" Content="Starta" HorizontalAlignment="Left" Margin="406,0,0,0" VerticalAlignment="Center" Height="38" Width="116" FontSize="20" Click="btnStart_Click"/>
+        <TextBox x:Name="txtValue" HorizontalAlignment="Left" Margin="277,0,0,0" TextWrapping="Wrap" VerticalAlignment="Center" Width="123" Height="37"/>
+        <Label Content="Utfall" HorizontalAlignment="Left" Margin="133,272,0,0" VerticalAlignment="Top" Height="41" Width="96" FontSize="20" FontWeight="Bold"/>
+        <Label x:Name="lblRätt" Content="" HorizontalAlignment="Left" Margin="133,318,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label x:Name="lblFel" Content="" HorizontalAlignment="Left" Margin="133,361,0,0" VerticalAlignment="Top" Width="150"/>
+        <Label Content="Antal försök" HorizontalAlignment="Left" Margin="277,168,0,0" VerticalAlignment="Top" Width="112"/>
+        <Label x:Name="lblValue" Content="50%" HorizontalAlignment="Left" Margin="485,53,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

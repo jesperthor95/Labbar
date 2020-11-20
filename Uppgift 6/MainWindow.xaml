@@ -1,0 +1,28 @@
+﻿<Window x:Class="Uppgift_6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift_6"
+        mc:Ignorable="d"
+        Title="Miniräknare" Height="316" Width="404">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="144*"/>
+            <RowDefinition Height="73*"/>
+        </Grid.RowDefinitions>
+        <TextBox x:Name="txtBox1" HorizontalAlignment="Left" Margin="51,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" Height="33"  FontSize="15"/>
+        <TextBox x:Name="txtBox2" HorizontalAlignment="Left" Margin="140,55,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="48" Height="33"  FontSize="15"/>
+        <TextBox x:Name="txtBoxTotal" HorizontalAlignment="Left" Margin="51,18,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="137" Height="33"  Grid.Row="1" FontSize="15"/>
+        <Label  Content="Tal 1" HorizontalAlignment="Left" Margin="51,29,0,0" VerticalAlignment="Top"/>
+        <Label  Content="Tal 2" HorizontalAlignment="Left" Margin="140,29,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblResult" Content="" HorizontalAlignment="Left" Margin="51,171,0,0" VerticalAlignment="Top" Height="46" Width="84" Grid.RowSpan="2"/>
+        <Button x:Name="plus" Content="+" HorizontalAlignment="Left" Margin="51,116,0,0" VerticalAlignment="Top" Height="23" Width="24" Background="#FFAEAEAE" Click="plus_Click"/>
+        <Button x:Name="minus" Content="-" HorizontalAlignment="Left" Margin="81,116,0,0" VerticalAlignment="Top" Height="23" Width="24" Background="#FFAEAEAE" Click="minus_Click"/>
+        <Button x:Name="multi" Content="*" HorizontalAlignment="Left" Margin="110,116,0,0" VerticalAlignment="Top" Height="23" Width="24" Background="#FFAEAEAE" Click="multi_Click"/>
+        <Button x:Name="division" Content="/" HorizontalAlignment="Left" Margin="140,116,0,0" VerticalAlignment="Top" Height="23" Width="24" Background="#FFAEAEAE" Click="division_Click" />
+        <Button x:Name="rensa" Content="Rensa" HorizontalAlignment="Left" Margin="208,25,0,0" Grid.Row="1" VerticalAlignment="Top" Width="56" Background="White" Click="rensa_Click"/>
+
+
+    </Grid>
+</Window>

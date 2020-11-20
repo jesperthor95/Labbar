@@ -1,0 +1,13 @@
+﻿<Window x:Class="Uppgift_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Uppgift_1"
+        mc:Ignorable="d"
+        Title="Knappen" Height="500" Width="500">
+
+    <Button x:Name="BtnMessage" Content="Klicka på mig" Margin="0,0,0,0" VerticalAlignment="Center" Grid.ColumnSpan="2" Click="BtnMessage_Click" RenderTransformOrigin="0.496,0.464" FlowDirection="LeftToRight" HorizontalAlignment="Center"/>
+
+
+</Window>
