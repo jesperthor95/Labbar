@@ -96,7 +96,7 @@ namespace Uppgift15
 
             // nollställer "antalet vokaler"
             vokaler = 0;
-  
+        
         }
 
     }
